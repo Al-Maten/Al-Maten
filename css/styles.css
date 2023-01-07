@@ -78,11 +78,19 @@ body {
 } 
 
 /* END HEADER */
+
+.container .jumbotron{
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
+}
 /* Xtra Large Devices, Wide Screens */
 
 /* Large Devices Only */
 @media (min-width: 1200px){
-  
+  .container .jumbotron{
+    background: url('../image/Shop2_1200x675.jpg') no-repeat;
+    height: 675px;
+  }
 
 }
 /* Medium Devices Only */
@@ -93,6 +101,12 @@ body {
   height: 100px;
   margin:0 5px 0px 0;
 }
+  .container .jumbotron{
+    background: url('../image/Shop2_992x720.jpg') no-repeat;
+    height: 558px;
+    width: 87%;
+    margin: 50px auto;
+  }
 
 }
 /* Small Devices Only */
@@ -104,6 +118,11 @@ body {
   .navbar-brand h1{
     padding-top: 10px;
     font-size: 5vw;
+  }
+  .container .jumbotron{
+    background: url('../image/Shop2_1024x768.jpg') no-repeat;
+    height: 432px;
+
   }
 }
 /* EXTRA SMALL DEVICES ONLY */
